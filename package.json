@@ -1,5 +1,5 @@
 {
-  "name": "winston-discord-logger",
+  "name": "winston-logger-discord",
   "version": "1.0.0",
   "description": "Discord transport for winston 3+ that logs to a channel via webhook.",
   "main": "lib/index.js",
