@@ -1,0 +1,18 @@
+root = true
+
+# All files
+[*]
+# Indentation
+indent_style = space
+indent_size = 2
+# Force end of line to be LF
+end_of_line = lf
+# Force charset utf-8
+charset = utf-8
+# Line breaks and whitespace
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
