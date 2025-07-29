@@ -1,0 +1,41 @@
+{
+  "name": "winston-logger-discord",
+  "version": "1.0.0",
+  "description": "Discord transport for winston 3+ that logs to a channel via webhook.",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunalmandot/winston-discord-logger.git"
+  },
+  "keywords": [
+    "winston",
+    "transport",
+    "discord",
+    "discord-transport",
+    "discord-logger",
+    "winston-discord-logger",
+    "winston-discord-transport",
+    "webhook",
+    "logger"
+  ],
+  "author": "Kunal Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kunalmandot/winston-discord-logger/issues"
+  },
+  "homepage": "https://github.com/kunalmandot/winston-discord-logger#readme",
+  "devDependencies": {
+    "eslint": "8.57.1",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.32.0",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "7.2.1",
+    "eslint-plugin-security": "3.0.1"
+  },
+  "dependencies": {
+    "axios": "1.11.0",
+    "winston-transport": "4.9.0"
+  }
+}
